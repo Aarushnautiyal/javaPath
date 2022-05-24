@@ -9,6 +9,7 @@ public class InputOutput {
         // String name = sc.next()
         // For getting more then one input expamle: HEY THERE we use nextLine()
         String name = sc.nextLine();
+        sc.close();
 
         // Other scanner Functions are:-
         // nextInt()

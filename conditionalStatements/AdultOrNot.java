@@ -8,6 +8,7 @@ public class AdultOrNot {
         // System.out.println("WEllcome to the ");
         System.out.println("Welcome to the club \n What is your age user ?");
         int age = sc.nextInt();
+        sc.close();
         if (age >= 18) {
             System.out.println("Welcome to the club matey");
         } else {
